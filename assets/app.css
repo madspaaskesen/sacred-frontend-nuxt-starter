@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* 🌿 Sacred-AI Custom Styles */
+body {
+  background-color: oklch(var(--b1));
+  color: oklch(var(--bc));
+}
+
+.sacred-glow {
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
