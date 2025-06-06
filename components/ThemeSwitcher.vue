@@ -50,7 +50,7 @@
 const open = ref(false)
 const selectedTheme = ref('lemonade') // light, dark, etc...
 const themes = ref([
-  { label: '🍋 Lemonade', value: 'lemonade' },  
+  { label: '🕊️ Sacred', value: 'lemonade' },  
   { label: '☀️ Light', value: 'light' },
   { label: '🌿 Forest light', value: 'emerald' },
   { label: '🧞 Fantasy', value: 'fantasy' },
