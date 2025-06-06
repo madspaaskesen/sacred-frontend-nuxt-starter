@@ -48,7 +48,7 @@
 
 <script setup lang="ts">
 const open = ref(false)
-const selectedTheme = ref('lemonade') // light, dark, etc...
+const selectedTheme = ref('lemonade') // light, dark, etc.
 const themes = ref([
   { label: '🕊️ Sacred', value: 'lemonade' },  
   { label: '☀️ Light', value: 'light' },
