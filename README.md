@@ -3,7 +3,7 @@
 A sacred, minimal NUXT Vue 3 + Tailwind + DaisyUI frontend layout.
 
 > For developers, founders, healers, and dreamers who need something clean, soft, and ready.
-
+> *A Nuxt 3 starter infused with light — modern theming, elegant structure, and space to grow.*
 ---
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
@@ -24,6 +24,30 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 - 🌙 Layout system (`default.vue`)
 - 🌍 SEO-ready with `app.head` config
 
+---
+
+### 🌿 Package Manager & Lockfile
+
+This starter project uses **[`pnpm`](https://pnpm.io/)** for fast, reliable installs and fully reproducible builds.
+You are welcome to use `npm` or `yarn` instead — simply remove the `pnpm-lock.yaml` file and reinstall with your preferred tool.
+
+```bash
+# To install with pnpm (recommended)
+pnpm install
+
+# Or with npm
+rm pnpm-lock.yaml
+npm install
+
+# Or with yarn
+rm pnpm-lock.yaml
+yarn install
+```
+
+> 🕊️ The lockfile is included intentionally to ensure harmony across environments.
+> Keeping it preserves the exact versions used to build this sacred starting point.
+
+---
 
 ## Setup
 
@@ -113,3 +137,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 🙏 Made with clarity and care by [@mads](https://github.com/madspaaskesen) @ [@sacred-ai](https://github.com/Sacred-AI) 💛
 
 🌸 Powered by [Nuxt](https://nuxt.com/), [Vue 3](https://vuejs.org), [Tailwind CSS](https://tailwindcss.com), [DaisyUI](https://daisyui.com)
+

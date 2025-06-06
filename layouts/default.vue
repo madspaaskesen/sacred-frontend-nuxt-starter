@@ -11,5 +11,6 @@
     <footer class="bg-base-200 text-center py-6 text-sm text-gray-500">
       © 2025 Sacred-AI. All rights reserved.
     </footer>
+    <ThemeSwitcher />
   </div>
 </template>

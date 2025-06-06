@@ -1,13 +1,13 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Html lang="en" data-theme="lemonade">
+    <Body>
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+    </Body>
+  </Html>
 </template>
 
 <script setup>
-import { NuxtLayout, NuxtPage } from '#components';
+import { Html, Body, NuxtLayout, NuxtPage } from '#components';
 </script>
-
-<style scoped>
-
-</style>
