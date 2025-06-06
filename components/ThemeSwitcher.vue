@@ -57,7 +57,7 @@ const themes = ref([
   { label: '🧁 cupcake', value: 'cupcake' },
   { label: '💝 valentine', value: 'valentine' },
   { label: '🌙 MIdnight prayer', value: 'synthwave' },
-  { label: '🌑 Night time', value: 'dark' },
+  { label: '🌑 Night time', value: 'dark' }
 ])
 
 const toggleOpen = () => {
